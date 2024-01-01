@@ -101,3 +101,15 @@ console.log(`the str is ${str}`);
 
 let username = prompt("Enter your name");
 console.log(username+username.length);
+
+let marksArray = [10,20,50,32,2];
+console.log(marksArray)
+let sum=0;
+for(let i=0;i<marksArray.length;i++){
+    sum = sum + marksArray[i];
+}
+
+console.log(sum/marksArray.length);
+
+marksArray.push(55);
+console.log(marksArray);
