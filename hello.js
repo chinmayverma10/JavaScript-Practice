@@ -102,6 +102,8 @@ console.log(`the str is ${str}`);
 let username = prompt("Enter your name");
 console.log(username+username.length);
 
+//CHAPTER --> 4 
+
 let marksArray = [10,20,50,32,2];
 console.log(marksArray)
 let sum=0;
@@ -113,6 +115,8 @@ console.log(sum/marksArray.length);
 
 marksArray.push(55);
 console.log(marksArray);
+
+//CHAPTER --> 5
 
 
 function print(strin){
@@ -128,5 +132,18 @@ console.log(func(a,b));
 
 let arr = [1,2,5,3,5];
 arr.forEach(function fun(val){
-    console.log(val*5);
+    console.log(val**2);
 });
+
+let newArray = arr.map((val)=>{
+    return val * 2;
+});
+console.log(newArray);
+let newArr = arr.filter((val)=>{
+    return val%2!==0;
+});
+console.log(newArr);
+const outp = arr.reduce((res,val)=>{
+    return res+val;
+});
+console.log(outp);
