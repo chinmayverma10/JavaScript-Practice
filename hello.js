@@ -62,3 +62,42 @@ if(marks>=90 && marks<=100){
 }else {
     console.log("F");
 }
+
+
+
+//CHAPTER --> 3
+
+for(let i=0;i<5;i++){
+    console.log("Jai shree ram");
+}
+let i = 0;
+while(i<5){
+    console.log("Jai shree ram");
+    i++;
+}
+do{
+    console.log("jai Shree ram");
+    i++;
+}while(i==5);
+let r = "Ram";
+for(let i of r){
+    console.log(i);
+}
+
+const student1 = {
+    name : "Chinmay",
+    pass : true
+};
+for(let i in student1){
+    console.log(i);
+    console.log(student1[i]);
+}
+
+let str = "ram";
+console.log(str[1]);
+
+let template_literal = `Jai Shree ram`;
+console.log(`the str is ${str}`);
+
+let username = prompt("Enter your name");
+console.log(username+username.length);
