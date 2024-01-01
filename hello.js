@@ -113,3 +113,20 @@ console.log(sum/marksArray.length);
 
 marksArray.push(55);
 console.log(marksArray);
+
+
+function print(strin){
+    console.log(strin);
+};
+print("Hello")
+let a = 5;
+let b = 10;
+const func = (a,b) => {
+    return a+b;
+}
+console.log(func(a,b));
+
+let arr = [1,2,5,3,5];
+arr.forEach(function fun(val){
+    console.log(val*5);
+});
