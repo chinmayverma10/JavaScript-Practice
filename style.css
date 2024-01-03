@@ -1,0 +1,15 @@
+*{
+    margin: 0;padding: 0;
+    background-color: bisque;
+}
+h1 {
+    color: aqua;
+    background-color: black;
+}
+h3{
+    color: black;
+    background-color: white;
+}
+button{
+    color: blue;
+}
