@@ -15,3 +15,15 @@ console.log(div.textContent);
 
 let h2 = document.querySelector(".hellonew");
 h2.innerText = h2.innerText + " from apna college students";
+
+let newEle = document.createElement("button");
+newEle.innerText = "I am Button";
+let prevEle = document.querySelector(".hellonew");
+prevEle.after(newEle);
+
+let newbtn = document.createElement("button");
+newbtn.innerText = "Click me";
+newbtn.style.backgroundColor = "red";
+newbtn.style.color = "white";
+let body = document.querySelector("body");
+body.prepend(newbtn);
